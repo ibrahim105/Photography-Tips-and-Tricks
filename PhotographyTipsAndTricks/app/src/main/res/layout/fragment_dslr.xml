@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    tools:context="com.ibrahim.photographytips.Dslr">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/t1"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        android:text="A Digital single-lens reflex camera (DSLR) typically uses a mirror and prism system (hence 'reflex', from the mirror's reflection) that permits the photographer to view through the lens and see exactly what will be captured, contrary to viewfinder cameras where the image could be significantly different from what will be captured. When the shutter button is pressed the mirror will adjust allowing the light to pass through on to the film, resulting in the image being presented. Focus can be adjusted manually by the photographer or automatically by an autofocus system. The viewfinder can include a matte focusing screen located just above the mirror system to diffuse the light. This permits accurate viewing, composing and focusing, especially useful with interchangeable lenses."
+
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/dslr_imageView1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/t2"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:text="Figure:Regular DSLR Camera"/>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+</FrameLayout>

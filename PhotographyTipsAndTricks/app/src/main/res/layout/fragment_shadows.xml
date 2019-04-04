@@ -1,0 +1,152 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.ibrahim.photographytips.Shadows">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <!-- Shadow -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shadows_textView1"
+        android:textSize="20sp"
+        android:layout_gravity="start"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textColor"
+        android:text="Title"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shadows_textView2"
+        android:layout_gravity="start"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textColor"
+        android:text="Description"/>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/shadows_imageView1"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/shadows_textView3"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:text="Figure:"/>
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/shadows_imageView2"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/shadows_textView4"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/shadows_textView5"
+            android:layout_gravity="start"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Description"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/shadows_imageView3"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/shadows_textView6"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/shadows_imageView4"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/shadows_textView7"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

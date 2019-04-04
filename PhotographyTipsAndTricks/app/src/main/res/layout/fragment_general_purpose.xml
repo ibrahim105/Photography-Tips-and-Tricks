@@ -1,0 +1,268 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.ibrahim.photographytips.GeneralPurpose">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Fixed focal length -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/general_purpose_textView1"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Fixed focal length"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/general_purpose_textView2"
+            android:layout_gravity="start"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Description"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/general_purpose_imageView1"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/general_purpose_textView3"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:View Finder"/>
+
+
+
+
+
+
+        <!-- Variable focal length -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/general_purpose_textView4"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Variable Focal length"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/general_purpose_textView5"
+            android:layout_gravity="start"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Description"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/general_purpose_imageView2"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/general_purpose_textView6"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:Nikon 28-300mm variable focal length"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/general_purpose_imageView3"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/general_purpose_textView7"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:Photographs of variable focal length"/>
+
+
+
+        <!-- Wide-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/general_purpose_textView8"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Wide"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/general_purpose_textView9"
+            android:layout_gravity="start"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Description"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/general_purpose_imageView4"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/general_purpose_textView10"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/general_purpose_imageView5"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/general_purpose_textView11"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:"/>
+
+
+
+        <!-- Tele-->
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/general_purpose_textView12"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Wide"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/general_purpose_textView13"
+            android:layout_gravity="start"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Description"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/general_purpose_imageView6"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/general_purpose_textView14"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/general_purpose_imageView7"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/general_purpose_textView15"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:Example picture of Tele variable focal length"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

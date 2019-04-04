@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    tools:context="com.ibrahim.photographytips.Mirrorless">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t1"
+                android:textSize="16sp"
+                android:textColor="@color/textColor"
+                android:text="A mirrorless interchangeable lens camera (MILC, commonly referred to simply as a 'mirrorless camera), is a camera with aninterchangeable lens that does not have a mirror reflex optical viewfinder. They are a subset of interchangeable lens cameras, a category that also includes single-lens reflex cameras (SLRs or DSLRs for digital models).Mirrorless cameras are designed to have the advantage of smaller size, lighter weight, and lower cost than SLRs, while still allowing users to swap lenses, unlike most compact cameras." />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/mirrorless_imageView1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/t2"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:text="Figure:Regular DSLR Camera"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

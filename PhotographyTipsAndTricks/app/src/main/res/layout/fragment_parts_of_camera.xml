@@ -1,0 +1,342 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.ibrahim.photographytips.PartsOfCamera">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/parts_of_camera_imageView1" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:text="Figure:Parts Of DSLR camera"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView2"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            android:text="Flash"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView3"
+            android:textSize="16sp"
+            android:textColor="@color/textColor"
+            android:text="A flash is a device used in photography producing a flash of artificial light (typically 1/1000 to 1/200 of a second) at a color temperature of about 5500 K to help illuminate a scene. A major purpose of a flash is to illuminate a dark scene. Other uses are capturing quickly moving objects or changing the quality of light. Flash refers either to the flash of light itself or to the electronic flash unit discharging the light. Most current flash units are electronic, having evolved from single-use flashbulbs and flammable powders. Modern cameras often activate flash units automaticall."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/parts_of_camera_imageView2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView4"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:Builtin and External Flash"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView5"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Lens mount"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView6"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="A lens mount is an interface — mechanical and often also electrical — between a photographic camera body and a lens. It is confined to cameras where the body allows interchangeable lenses, most usually the rangefinder camera, single lens reflex type or any movie cameraof 16 mm or higher gauge."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/parts_of_camera_imageView3"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView7"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:Lens Mount"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView8"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Hot shoe"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView9"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="A socket on a camera with direct electrical contacts for an attached flashgun or other accessory. Hot shoe is used to attach external flash, GPS device and many other elements."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/parts_of_camera_imageView4"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView10"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:Hot Shoe"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView11"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Display"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView12"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="A dslr has a display on its back which can show various information regarding the exposure and other aspects. This also serves as a viewfinder if a person is not comfortable using the traditional viewfinder. User can also review the images after taking them using the display."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/parts_of_camera_imageView5"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView13"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:Display"/>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView14"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Viewfinder"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView15"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="a device on a camera showing the field of view of the lens, used in framing and focusing the picture. Traditional SLR cameras use optical viewfinders that show the actual image. However, modern cameras such as mirrorless cameras use electronic viewfinder or EVF."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/parts_of_camera_imageView6"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView16"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:View Finder"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView17"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Shutter"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView18"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Shutter is a mechanical device that limits the passage of light to the sensor. The longer the shutter speed is the more exposure the sensor takes."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/parts_of_camera_imageView7"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView19"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:Camera Shutter"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView20"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Mirror"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView21"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="A DSLR uses mirror to reflect light through the viewfinder so the user can see an image through it. It lies before the shutter and just behind the lens mount."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/parts_of_camera_imageView8"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView22"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:Mirror"/>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView23"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Sensor"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView24"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="An Image Sensor is a device that converts an optical image to an electric signal. It is used mostly in digitalcameras and other imaging devices. The sensor of a camera lies behind the shutter. When the shtter opens the sensor is exposed to light and it generates the image."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/parts_of_camera_imageView9"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parts_of_camera_textView25"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:Camera Sensor"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

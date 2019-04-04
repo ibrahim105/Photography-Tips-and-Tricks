@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.ibrahim.photographytips.NegativeSpace">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <!-- Shutter -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/negative_space_textView1"
+        android:textSize="20sp"
+        android:layout_gravity="start"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textColor"
+        android:text="Shutter Speed"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/negative_space_textView2"
+        android:layout_gravity="start"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textColor"
+        android:text="Description"/>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/negative_space_imageView1"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/negative_space_textView3"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:text="Figure:"/>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/negative_space_imageView2"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/negative_space_textView4"
+        android:layout_gravity="start"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textColor"
+        android:text="Description"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/negative_space_textView5"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:text="Figure:"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

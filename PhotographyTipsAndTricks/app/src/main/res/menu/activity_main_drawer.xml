@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/star"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/top_apps"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Top Apps" />
+
+    </group>
+
+    <item android:title="Popular Apps and Games">
+        <menu>
+            <item
+                android:id="@+id/app1"
+                android:icon="@drawable/game"
+                android:title="Shadow Jumper" />
+            <item
+                android:id="@+id/app2"
+                android:icon="@drawable/interior"
+                android:title="Interior Design" />
+            <item
+                android:id="@+id/app3"
+                android:icon="@drawable/flirt"
+                android:title="Flirty Text" />
+
+            <item
+                android:id="@+id/app4"
+                android:icon="@drawable/lo"
+                android:title="Love Text Messages" />
+
+            <item
+                android:id="@+id/app5"
+                android:icon="@drawable/nail"
+                android:title="Nail Art Design" />
+
+            <item
+                android:id="@+id/app6"
+                android:icon="@drawable/dic"
+                android:title="E2B Dictionary" />
+
+            <item
+                android:id="@+id/app7"
+                android:icon="@drawable/study"
+                android:title="Study Tips" />
+        </menu>
+    </item>
+
+</menu>

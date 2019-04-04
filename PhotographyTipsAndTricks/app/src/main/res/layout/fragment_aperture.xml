@@ -1,0 +1,189 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.ibrahim.photographytips.Aperture">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- Aperture length -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/aperture_textView1"
+        android:textSize="20sp"
+        android:layout_gravity="start"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textColor"
+        android:text="Aperture"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/aperture_textView2"
+        android:layout_gravity="start"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textColor"
+        android:text="Description"/>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/aperture_imageView1"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/aperture_textView3"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:text="Figure:"/>
+
+
+
+        <!-- How Aperture Affects Depth of Fiel -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/aperture_textView4"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Aperture Affects "
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/aperture_textView5"
+            android:layout_gravity="start"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Description"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/aperture_imageView2"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/aperture_textView6"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:"/>
+
+
+
+        <!-- How Aperture Affects Shutter Speed-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/aperture_textView7"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Aperture Affects Shutter Speed"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/aperture_textView8"
+            android:layout_gravity="start"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Description"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/aperture_imageView3"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:id="@+id/aperture_textView9"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:text="Figure:"/>
+
+
+
+
+        <!--    Choosing the Aperture :-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/aperture_textView10"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Choosing the Aperture"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/aperture_textView11"
+            android:layout_gravity="start"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textColor"
+            android:text="Description"/>
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
